@@ -20,21 +20,21 @@ import IncreDecre from './IncreDecre.vue'
 
 export default {
 
-  // props:{
-  //   itemsList:{
-  //     type:Array
-  //   }
-  // },
-  data(){
-    return{
-        itemsList: [{name:'Eggs',image:'./assets/eggs.jpg',show:true},
-                    {name:'Bread',image:'/assets/bread.jfif',show:true},
-                    {name:'Jam',image:'/assets/jam.jfif',show:true},
-                    {name:'CornFlakes',image:'/assets/cornflakes.jfif',show:true},
-                    {name:'Milk',image:'/assets/milk.jfif',show:true},
-                    {name:'Juice',image:'/assets/juice.jfif',show:true}]
-        }
+  props:{
+    itemsList:{
+      type:Array
+    }
   },
+  // data(){
+  //   return{
+  //       itemsList: [{name:'Eggs',image:'./assets/eggs.jpg',show:true},
+  //                   {name:'Bread',image:'/assets/bread.jfif',show:true},
+  //                   {name:'Jam',image:'/assets/jam.jfif',show:true},
+  //                   {name:'CornFlakes',image:'/assets/cornflakes.jfif',show:true},
+  //                   {name:'Milk',image:'/assets/milk.jfif',show:true},
+  //                   {name:'Juice',image:'/assets/juice.jfif',show:true}]
+  //       }
+  // },
 
   components:{
     IncreDecre
