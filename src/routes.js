@@ -1,8 +1,7 @@
 import PageContent from './components/PageContent.vue'
 import AddItem from './components/AddItem.vue'
 
-<script>
-    export default{
-        
-    }
-</script>
+export default[
+{ path: '/', component: PageContent},
+{ path: '/add', component: AddItem}
+]

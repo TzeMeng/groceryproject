@@ -2,6 +2,12 @@
   <div class="headerStyle">
     <header>
         <h1>{{ msg }}</h1>
+        <nav>
+          <ul>
+            <li><router-link to="/">List</router-link></li>
+            <li><router-link to="/add">Add item</router-link></li>
+          </ul>
+        </nav>
     </header>
     
   </div>
